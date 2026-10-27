@@ -1,5 +1,5 @@
 # OCR Obsidian
-Send pictures to telegram bot and have text extracted, AI cleannup and suggest tags, and put into a specified vault
+Send pictures of your notes to a Telegram bot, and it will extract the text, convert it to Markdown, suggest tags to organize it in the context of your other notes, and save it to a specified vault.
 
 ## Example use case
 You upload pictures of your class notes to have them digitized into an obsidian vault. This lets you have the best of both worlds: both digital and physical notes. 
