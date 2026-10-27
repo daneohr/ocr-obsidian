@@ -5,10 +5,10 @@ Send pictures to telegram bot and have text extracted, AI cleannup and suggest t
 You upload pictures of your class notes to have them digitized into an obsidian vault. This lets you have the best of both worlds: both digital and physical notes. 
 
 ## What I learned
-This project taught me how to orchestrate APIs and LLMs for more advanced functionality. This is one of the most technically complex pieces of software I've written. It combines user input via Telegram, Ollama API integration for vision capabilities, as well as disk reading and file parsing. 
+This project taught me how to orchestrate APIs and LLMs for more advanced (in the higher-level sense) functionality. This is one of the most technically complex pieces of software I've written. It combines user input via Telegram, Ollama API integration for vision capabilities, as well as disk reading and file parsing. 
 
 # Ollama integration
-This app is designed for use with Ollama. Before using, make sure you have ollama installed on a capable machine, as well as having a vision model downloaded, as well as having Ollama exposed on your network. 
+This app is designed for use with Ollama. Before using, make sure you have ollama installed on a capable machine with a vision model downloaded, as well as Ollama exposed on your network. 
 
 # AI Endpoint
 > (Found in the [config.toml](config.example.toml))
