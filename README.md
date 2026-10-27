@@ -2,13 +2,16 @@
 Send pictures to telegram bot and have text extracted, AI cleannup and suggest tags, and put into a specified vault
 
 ## Example use case
-You upload pictures of your class notes to have them digitized into an obsidian vault. This lets you have the best of both worlds: digital **and** physical notes. 
+You upload pictures of your class notes to have them digitized into an obsidian vault. This lets you have the best of both worlds: both digital and physical notes. 
+
+## What I learned
+This project taught me how to orchestrate APIs and LLMs for more advanced functionality. This is one of the most technically complex pieces of software I've written. It combines user input via Telegram, Ollama API integration for vision capabilities, as well as disk reading and file parsing. 
 
 # Ollama integration
-This app is designed for use with Ollama. Before using, make sure you have ollama installed on a capable machine, as well as downloaded vision models, and Ollama exposed on your network. 
+This app is designed for use with Ollama. Before using, make sure you have ollama installed on a capable machine, as well as having a vision model downloaded, as well as having Ollama exposed on your network. 
 
 # AI Endpoint
-> (Found in your [config.toml](config.example.toml))
+> (Found in the [config.toml](config.example.toml))
 
 The AI endpoint is designed to point to an Ollama endpoint. For more information, check out the [Ollama docs](https://docs.ollama.com/api/introduction/)
 
@@ -22,7 +25,7 @@ The AI endpoint is designed to point to an Ollama endpoint. For more information
 ## Steps
 1. Clone the repository and enter the project directory:
    ```bash
-   git clone https://github.com/rrjackson82/ocr-obsidian.git
+   git clone https://github.com/daneohr/ocr-obsidian.git
    cd ocr-obsidian
    ```
 2. (Optional but recommended) Create and activate a virtual environment:
